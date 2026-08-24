@@ -1,0 +1,169 @@
+{
+  "sentier": {
+    "nom": "Journées Européennes du Patrimoine",
+    "sous_titre": "A la décourverte des ZNIEFF",
+    "total_lieux": 13,
+    "centre": {
+      "lat": 47.751217,
+      "lng": 3.492074
+    },
+    "zoom_defaut": 14,
+    "couleur_trace": "#4A6741",
+    "texte_accueil": "<div id=\"rendered-md\"><h2 id=\"quest-ce-quune-znieff\">Qu&apos;est-ce qu&apos;une ZNIEFF ?</h2>\n<p>Une ZNIEFF (<strong>Zone Naturelle d&apos;Int&eacute;r&ecirc;t &Eacute;cologique, Faunistique et Floristique</strong>) est un secteur du territoire reconnu pour la richesse de son patrimoine naturel : une faune, une flore ou des habitats remarquables, rares ou en bon &eacute;tat de conservation. Cet inventaire scientifique, lanc&eacute; en 1982 puis modernis&eacute; &agrave; partir de 1996, est pilot&eacute; par les services r&eacute;gionaux de l&apos;&Eacute;tat (DREAL) en lien avec des experts naturalistes, et valid&eacute; au niveau national par le Mus&eacute;um national d&apos;Histoire naturelle (MNHN).</p>\n<p>On distingue deux types de ZNIEFF. Les zones de type I sont des secteurs de superficie g&eacute;n&eacute;ralement limit&eacute;e, caract&eacute;ris&eacute;s par la pr&eacute;sence d&apos;esp&egrave;ces ou de milieux remarquables et d&eacute;terminants. Les zones de type II sont de plus vastes ensembles naturels riches et peu modifi&eacute;s, qui offrent d&apos;importantes potentialit&eacute;s biologiques et englobent souvent plusieurs ZNIEFF de type I.</p>\n<p>Il est important de noter qu&apos;une ZNIEFF n&apos;est pas, en elle-m&ecirc;me, un outil de protection r&eacute;glementaire : elle ne cr&eacute;e pas d&apos;interdiction directe. C&apos;est un inventaire de connaissance qui doit n&eacute;anmoins &ecirc;tre pris en compte dans les documents d&apos;urbanisme et les &eacute;tudes d&apos;impact des projets d&apos;am&eacute;nagement, ce qui en fait un outil d&apos;alerte et d&apos;aide &agrave; la d&eacute;cision central dans la politique fran&ccedil;aise de protection de la nature.</p>\n<h2 id=\"focus-sur-deux-znieff-de-chevannes\">Focus sur deux ZNIEFF de Chevannes</h2>\n<p>Les deux zones sont toutes deux class&eacute;es en ZNIEFF de type I.</p>\n<h2 id=\"znieff-bois-de-tr&egrave;fontaine-et-de-saint-thibault\">ZNIEFF &laquo; Bois de Tr&egrave;fontaine et de Saint-Thibault &raquo;</h2>\n<p>Ce site de 845,86 hectares (identifiant national 260008537) s&apos;&eacute;tend entre 132 et 225 m&egrave;tres d&apos;altitude sur les communes de Pourrain, Villefargeau, Lindry, Saint-Georges-sur-Baulche et Chevannes. Install&eacute; sur des terrains argilo-sableux albiens, il offre une grande vari&eacute;t&eacute; de paysages, alternant boisements, landes, prairies humides et zones cultiv&eacute;es, avec une flore d&apos;affinit&eacute; atlantique en limite orientale de son aire de r&eacute;partition.</p>\n<p>Ses habitats d&eacute;terminants comptent des aulnaies mar&eacute;cageuses, des ch&ecirc;naies sur podzols, des for&ecirc;ts riveraines &agrave; fr&ecirc;ne et aulne, des landes atlantiques &agrave; bruy&egrave;res et ajoncs, ainsi que des prairies &agrave; molinie d&apos;int&eacute;r&ecirc;t europ&eacute;en. C&ocirc;t&eacute; flore, le site abrite plusieurs esp&egrave;ces prot&eacute;g&eacute;es et rares en Bourgogne : l&apos;ajonc nain, la bruy&egrave;re &agrave; quatre angles, la bruy&egrave;re cendr&eacute;e, l&apos;osmonde royale (une foug&egrave;re) et la gentiane pneumonanthe. C&ocirc;t&eacute; faune, on y trouve notamment la chouette chev&ecirc;che, le pic noir, le traquet motteux et le pouillot de Bonelli.</p>\n<p>L&apos;int&eacute;r&ecirc;t de la zone est &agrave; la fois &eacute;cologique, floristique et fonctionnel : elle joue un r&ocirc;le de r&eacute;gulation hydraulique et d&apos;auto-&eacute;puration des eaux, en plus d&apos;offrir des habitats vari&eacute;s &agrave; la faune locale.</p>\n<h2 id=\"znieff-ruisseau-de-la-baulche\">ZNIEFF &laquo; Ruisseau de la Baulche &raquo;</h2>\n<p>Ce site de 696,44 hectares (identifiant national 260030424) s&apos;&eacute;tend entre 91 et 219 m&egrave;tres d&apos;altitude sur les communes de Villefargeau, Coulangeron, Perrigny, Mon&eacute;teau, Chevannes, Diges, Escamps, Merry-Sec et Saint-Georges-sur-Baulche. &Eacute;tabli sur des sables et argiles de l&apos;Albien, il correspond &agrave; la vall&eacute;e inondable du ruisseau de la Baulche, o&ugrave; alternent prairies bocag&egrave;res p&acirc;tur&eacute;es, ripisylves, petits boisements, peupleraies et parcelles cultiv&eacute;es.</p>\n<p>Ses habitats d&eacute;terminants sont li&eacute;s au r&eacute;seau hydrographique : bois de ruisseaux et de sources &agrave; fr&ecirc;nes et aulnes, sources et ruisseaux de t&ecirc;te de bassin, et prairies de fauche de basse altitude. La zone se distingue surtout par sa faune aquatique et associ&eacute;e : le chabot et la lamproie de Planer (deux poissons d&apos;int&eacute;r&ecirc;t europ&eacute;en), la vandoise, le petit rhinolophe (une chauve-souris qui y poss&egrave;de une colonie de mise-bas) et la couleuvre verte et jaune. Le murin de Bechstein y est &eacute;galement pr&eacute;sent comme esp&egrave;ce remarquable. C&ocirc;t&eacute; flore, on note l&apos;impatiente ne-me-touchez-pas, plante prot&eacute;g&eacute;e et rare en Bourgogne, typique des bois humides.</p>\n<p>La bonne qualit&eacute; des peuplements piscicoles t&eacute;moigne d&apos;une eau de bonne qualit&eacute;. La pr&eacute;servation du site d&eacute;pend du maintien d&apos;un &eacute;levage extensif respectueux du milieu et de la conservation du r&eacute;gime hydraulique naturel, sans modification des berges.</p>\n</div></div>",
+    "texte_credits": "<div id=\"rendered-md\"><h2 id=\"r&eacute;alisation\">R&eacute;alisation</h2>\n<p>Mairie de Chevannes</p>\n<h2 id=\"en-collaboration-avec\">En collaboration avec</h2>\n<ul>\n<li>Chevannes Vtt Loisirs</li>\n<li>Axion Numerik</li>\n</ul>\n<h2 id=\"ressources\">Ressources</h2>\n<ul>\n<li>Inventaire national du patrimoine naturel (INPN)</li>\n<li>DREAL Bourgogne-Franche-Comt&eacute;</li>\n</ul>\n<h2 id=\"technologies\">Technologies</h2>\n<p>Cette application a &eacute;t&eacute; d&eacute;velopp&eacute;e avec des technologies open source et gratuites :</p>\n<ul>\n<li>Cartographie : OpenStreetMap + Leaflet.js</li>\n<li>H&eacute;bergement : Netlify</li>\n<li>D&eacute;veloppement : HTML / CSS / JavaScript vanilla</li>\n</ul>\n</div></div>"
+  },
+  "lieux": [
+    {
+      "id": "01",
+      "titre": "Chataigner",
+      "etat": "",
+      "couleur": "#171916",
+      "implantation": "",
+      "gps": {
+        "lat": 47.77603662421251,
+        "lng": 3.468557803984495
+      },
+      "rayon_declenchement": 25,
+      "description": "<div id=\"rendered-md\"><p>Situ&eacute;e &agrave; l&rsquo;&eacute;cart du centre actuel du village et en l&rsquo;absence de document pr&eacute;cisant les circonstances exactes de son &eacute;rection <strong>la Croix Blanche</strong> peut &ecirc;tre consid&eacute;r&eacute;e comme <strong>une croix de chemin</strong>. Implant&eacute;e au bord d&rsquo;une voie de circulation, elle constituait un rep&egrave;re familier pour les habitants, les voyageurs et les personnes travaillant dans les terres voisines.</p>\n<p>Le chemin de Beaulieu o&ugrave; vous vous trouvez s&apos;appelait &quot;<strong>Chemin de Chevannes &agrave; la Croix Blanche</strong>&quot;<br/>\nD&eacute;couvrez le sur le cadastre de <strong>1808</strong>.</p>\n<p><strong>La Croix Blanche</strong> t&eacute;moigne ainsi de la place qu&rsquo;occupaient autrefois les croix dans le paysage rural : lieux de recueillement, points de rep&egrave;re et marqueurs du territoire communal</p>\n</div></div>",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "",
+      "label_apres": "",
+      "label_avant": "",
+      "photo": ""
+    },
+    {
+      "id": "02",
+      "titre": "Bruyère Cendrée",
+      "etat": "",
+      "couleur": "#171916",
+      "implantation": "",
+      "gps": {
+        "lat": 47.77663381289285,
+        "lng": 3.462248311159544
+      },
+      "rayon_declenchement": 25,
+      "description": "<div id=\"rendered-md\"><p>Situ&eacute;e dans le parc du <strong>ch&acirc;teau de Fontaine-Madame</strong>, cette croix appartient au patrimoine du domaine.</p>\n<p>Son implantation dans une propri&eacute;t&eacute; priv&eacute;e la distingue des croix de chemin et des croix plac&eacute;es aux entr&eacute;es du village.<br/>\n<strong>La Croix du ch&acirc;teau de Fontaine-Madame</strong> pouvait constituer un lieu de recueillement pour les propri&eacute;taires et les personnes vivant ou travaillant sur le domaine. Elle pouvait &eacute;galement participer &agrave; l&rsquo;am&eacute;nagement paysager du parc et rappeler l&rsquo;attachement religieux des occupants du ch&acirc;teau.</p>\n<p>En l&rsquo;absence de document pr&eacute;cisant la date et les circonstances de son installation, sa fonction exacte reste toutefois inconnue. Sa pr&eacute;sence t&eacute;moigne du r&ocirc;le que pouvaient occuper les croix au sein des grands domaines ruraux.</p>\n<p>Sa pr&eacute;sence dans le parc semble &eacute;galement avoir attir&eacute; l&rsquo;attention des premiers photographes du XXᵉ si&egrave;cle. Plusieurs cartes postales anciennes, notamment dat&eacute;es de <strong>1913</strong> et <strong>1916</strong>, ont conserv&eacute; son image et t&eacute;moignent de la place qu&rsquo;elle occupait alors dans le paysage du domaine.</p>\n</div></div>",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "https://www.youtube.com/watch?v=VUDfZFGWOr4",
+      "label_apres": "",
+      "label_avant": "Video",
+      "photo": ""
+    },
+    {
+      "id": "03",
+      "titre": "Coussinet des Bois",
+      "etat": "",
+      "couleur": "#171916",
+      "implantation": "",
+      "gps": {
+        "lat": 47.7763592833299,
+        "lng": 3.460059171140174
+      },
+      "rayon_declenchement": 25,
+      "description": "<div id=\"rendered-md\"><p>Autrefois situ&eacute;e &agrave; un carrefour sur le chemin conduisant vers le <strong>hameau de Maulny</strong>, cette croix occupait une position importante dans le paysage rural.</p>\n<p>Les croix plac&eacute;es &agrave; la rencontre de plusieurs chemins pouvaient servir de rep&egrave;res aux voyageurs et contribuer &agrave; identifier une direction ou un lieu. Sa localisation laisse ainsi penser qu&rsquo;elle signalait l&rsquo;itin&eacute;raire menant vers Maulny, tout en constituant probablement un point de rep&egrave;re familier pour les habitants et les personnes empruntant ce chemin.</p>\n<p>Elle appara&icirc;t sur une carte de <strong>1808</strong> sous l&rsquo;appellation &laquo; <strong>climat de la Croix de Maulny</strong> &raquo;. Le mot climat d&eacute;signe ici un lieu-dit ou une portion de territoire identifi&eacute;e par un nom particulier. Cette mention montre que la croix &eacute;tait suffisamment connue et ancienne pour avoir donn&eacute; son nom aux terres environnantes.</p>\n<p>La croix a aujourd&rsquo;hui disparu. Son souvenir subsiste n&eacute;anmoins dans les documents cartographiques anciens et dans le nom du lieu, qui t&eacute;moignent de la place qu&rsquo;elle occupait autrefois dans l&rsquo;organisation et la lecture du territoire.</p>\n</div></div>",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "",
+      "label_apres": "",
+      "label_avant": "",
+      "photo": ""
+    },
+    {
+      "id": "04",
+      "titre": "Petit Houx",
+      "etat": "",
+      "couleur": "#171916",
+      "implantation": "",
+      "gps": {
+        "lat": 47.7811330593392,
+        "lng": 3.4604970342008188
+      },
+      "rayon_declenchement": 25,
+      "description": "<div id=\"rendered-md\"><p>Situ&eacute;e &agrave; un carrefour du <strong>hameau de la Biche</strong>, la <strong>croix de la Biche</strong> occupait un emplacement caract&eacute;ristique des croix rurales. Plac&eacute;es &agrave; la rencontre de plusieurs chemins, celles-ci pouvaient servir de rep&egrave;res aux habitants et aux voyageurs, tout en marquant un lieu de recueillement dans la vie quotidienne du hameau.</p>\n<p>&Agrave; ce jour, sa seule repr&eacute;sentation connue appara&icirc;t sur une carte de l&rsquo;<strong>IGN</strong> dat&eacute;e de <strong>1950</strong>. Cette mention atteste de son existence au milieu du XXᵉ si&egrave;cle, mais ne permet pas encore d&rsquo;en d&eacute;terminer la date d&rsquo;installation, l&rsquo;origine ni la fonction pr&eacute;cise.</p>\n<p>En l&rsquo;absence d&rsquo;autres documents, cette croix peut &ecirc;tre consid&eacute;r&eacute;e comme une croix de hameau implant&eacute;e &agrave; un carrefour. Sa pr&eacute;sence t&eacute;moigne de l&rsquo;importance de ces petits monuments comme points de rep&egrave;re dans l&rsquo;organisation des chemins et dans le paysage rural.</p>\n</div></div>",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "",
+      "label_apres": "",
+      "label_avant": "",
+      "photo": ""
+    },
+    {
+      "id": "05",
+      "titre": "Osmonde Royale",
+      "etat": "",
+      "couleur": "#171916",
+      "implantation": "",
+      "gps": {
+        "lat": 47.78057466510055,
+        "lng": 3.4604732768161552
+      },
+      "rayon_declenchement": 25,
+      "description": "<div id=\"rendered-md\"><p>Cette croix en pierre se trouve aujourd&rsquo;hui &agrave; la limite de plusieurs champs, dans un environnement agricole.</p>\n<p>Son socle porte encore l&rsquo;inscription &laquo; <strong>St Charles de Borrom&eacute;e</strong> &raquo;, qui constitue le principal indice permettant d&rsquo;identifier sa d&eacute;dicace. L&rsquo;usure de la pierre ne permet toutefois plus de distinguer d&rsquo;&eacute;ventuelles autres inscriptions, comme une date, le nom d&rsquo;un donateur ou les circonstances de son installation.</p>\n<p><strong>Saint Charles Borrom&eacute;e</strong>, cardinal et archev&ecirc;que de Milan au <strong>XVIᵉ si&egrave;cle</strong>, est notamment connu pour son action aupr&egrave;s de la population lors de l&rsquo;&eacute;pid&eacute;mie de peste qui frappa Milan en <strong>1576</strong>. Il organisa les secours, visita les malades et resta tr&egrave;s pr&eacute;sent aupr&egrave;s des habitants. Cette m&eacute;moire explique qu&rsquo;il ait parfois &eacute;t&eacute; invoqu&eacute; dans un contexte de maladie ou d&rsquo;&eacute;pid&eacute;mie.</p>\n<p>La mention de cette croix pourrait donc &ecirc;tre li&eacute;e &agrave; une demande de protection, &agrave; un remerciement apr&egrave;s une maladie ou &agrave; une d&eacute;votion particuli&egrave;re envers le saint.</p>\n<p>Sa premi&egrave;re repr&eacute;sentation cartographique actuellement connue figure sur une carte de <strong>1950</strong>.</p>\n<p>Sa position actuelle, en bordure de terres cultiv&eacute;es, peut correspondre &agrave; une implantation ancienne pr&egrave;s d&rsquo;un chemin aujourd&rsquo;hui disparu ou transform&eacute;. Elle peut &eacute;galement avoir constitu&eacute; un lieu de recueillement pour les habitants et les personnes travaillant dans les champs voisins.</p>\n<p>Aucun document local ne permet cependant de confirmer ces interpr&eacute;tations.</p>\n<p>Malgr&eacute; l&rsquo;&eacute;rosion du temps et le manque de sources, l&rsquo;inscription conserv&eacute;e sur son socle lui donne une identit&eacute; singuli&egrave;re dans le patrimoine rural de la commune.</p>\n</div></div>",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "",
+      "label_apres": "",
+      "label_avant": "",
+      "photo": ""
+    },
+    {
+      "id": "06",
+      "titre": "Pin Maritime",
+      "etat": "",
+      "couleur": "#171916",
+      "implantation": "",
+      "gps": {
+        "lat": 47.776431697981735,
+        "lng": 3.457426416168378
+      },
+      "rayon_declenchement": 50,
+      "description": "",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "",
+      "label_apres": "",
+      "label_avant": "",
+      "photo": ""
+    },
+    {
+      "id": "D",
+      "titre": "Départ",
+      "etat": "",
+      "couleur": "#42c33b",
+      "implantation": "",
+      "gps": {
+        "lat": 47.77528506249252,
+        "lng": 3.4736786895503697
+      },
+      "rayon_declenchement": 50,
+      "description": "",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "",
+      "label_apres": "",
+      "label_avant": "",
+      "photo": ""
+    },
+    {
+      "id": "I",
+      "titre": "Château de Trèfontaines",
+      "etat": "",
+      "couleur": "#E719A2",
+      "implantation": "",
+      "gps": {
+        "lat": 47.78106696509299,
+        "lng": 3.4607546124783304
+      },
+      "rayon_declenchement": 50,
+      "description": "",
+      "source": "",
+      "photo_apres": "",
+      "photo_avant": "",
+      "label_apres": "",
+      "label_avant": "",
+      "photo": ""
+    }
+  ]
+}

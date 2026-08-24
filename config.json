@@ -1,0 +1,25 @@
+{
+  "couleurs": {
+    "--moss": "#00b272",
+    "--gold": "#171916",
+    "--cream": "#ffffff",
+    "--ink": "#171916",
+    "--earth": "#5d7a64",
+    "--stone": "#5d7a64",
+    "--parchment": "#ffffff"
+  },
+  "images": {
+    "logo.png": "assets/images/logo.png",
+    "logo2.png": "assets/images/logo2.png",
+    "parcours.png": "assets/images/parcours.png",
+    "inventaire.png": "assets/images/inventaire.png",
+    "credits.png": "assets/images/credits.png",
+    "accueil.png": "assets/images/accueil.png",
+    "intro.png": "assets/images/intro.png"
+  },
+  "dimensions": {
+    "logo.png": "40px",
+    "logo2.png": "60px"
+  },
+  "credits": "Parcours patrimonial réalisé à l'occasion des Journées Européennes du Patrimoine."
+}
