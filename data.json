@@ -340,7 +340,7 @@
       "id": "D",
       "titre": "Znieff de Chevannes",
       "etat": "Carte",
-      "couleur": "#42c33b",
+      "couleur": "#E719A2",
       "implantation": "",
       "gps": {
         "lat": 47.775334758364686,
@@ -358,7 +358,7 @@
     {
       "id": "I",
       "titre": "Château de Trèfontaines",
-      "etat": "château",
+      "etat": "Château",
       "couleur": "#E719A2",
       "implantation": "",
       "gps": {
