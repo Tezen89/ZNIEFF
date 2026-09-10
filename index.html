@@ -164,6 +164,11 @@ html,body{height:100%;font-family:'Segoe UI',Arial,sans-serif;background:var(--g
 .vw-img{width:100%;height:auto;max-height:65vh;object-fit:contain;display:block;}
 .vw-hint{position:absolute;bottom:8px;right:8px;background:rgba(0,0,0,.5);
   color:#fff;font-size:11px;padding:3px 8px;border-radius:4px;pointer-events:none;}
+.vw-video{width:100%;max-height:65vh;display:block;background:#000;}
+.vw-audio{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:.75rem;padding:2rem 1rem;width:100%;}
+.vw-audio-icon{font-size:40px;}
+.vw-audio audio{width:100%;max-width:400px;}
 
 /* ── CREDITS ── */
 #vc{overflow-y:auto;}
@@ -479,9 +484,9 @@ function renderF(l) {
   if (l.photo_apres || l.photo_avant) {
     ssl.style.display = ''; sep2.style.display = '';
 
-    // Reset complet des panels
-    document.getElementById('vwAvant').innerHTML = '<img class="vw-img" id="vwImgAvant" src="" alt=""><div class="vw-hint">Cliquer pour agrandir</div>';
-    document.getElementById('vwApres').innerHTML  = '<img class="vw-img" id="vwImgApres" src="" alt=""><div class="vw-hint">Cliquer pour agrandir</div>';
+    // Reset complet des panels (le contenu est reconstruit par chargerMedia)
+    document.getElementById('vwAvant').innerHTML = '';
+    document.getElementById('vwApres').innerHTML  = '';
 
     // Labels des boutons
     const btnAvant = document.getElementById('tabBtnAvant');
@@ -490,25 +495,8 @@ function renderF(l) {
     btnApres.textContent = l.label_apres || 'Après';
     btnAvant.style.display = ''; btnApres.style.display = '';
 
-    // Charger une photo : image directe ou bouton lien externe
-    function chargerPhoto(url, imgId, wrapId) {
-      const img  = document.getElementById(imgId);
-      const wrap = document.getElementById(wrapId);
-      if (!url) { wrap.innerHTML = '<div class="vw-hint" style="position:static;padding:1rem;font-size:13px">Non disponible</div>'; return; }
-      // Tenter d'afficher comme image — si erreur → bouton externe
-      img.src = url;
-      img.style.display = 'block';
-      img.onerror = () => {
-        wrap.innerHTML = `
-          <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:200px;gap:1rem;padding:1rem;text-align:center;background:var(--grl);border-radius:10px">
-            <div style="font-size:13px;color:var(--gr3)">Aperçu non disponible</div>
-            <a href="#" onclick="ouvrirExterne('${url}');return false;" class="archive-btn">Voir le document ↗</a>
-          </div>`;
-      };
-    }
-
-    chargerPhoto(l.photo_avant, 'vwImgAvant', 'vwAvant');
-    chargerPhoto(l.photo_apres, 'vwImgApres', 'vwApres');
+    chargerMedia(l.photo_avant, 'vwAvant', 'avant');
+    chargerMedia(l.photo_apres, 'vwApres', 'apres');
 
     // Afficher avant en premier si disponible
     if (l.photo_avant) { showTab('avant'); }
@@ -584,9 +572,9 @@ function initPinchZoom(img) {
 }
 
 function agrandir(cote) {
-  const src = cote === 'avant'
-    ? document.getElementById('vwImgAvant').src
-    : document.getElementById('vwImgApres').src;
+  const wrap = document.getElementById(cote === 'avant' ? 'vwAvant' : 'vwApres');
+  if (!wrap || wrap.dataset.type !== 'image') return; // pas de zoom plein écran pour vidéo/son
+  const src = wrap.querySelector('img') ? wrap.querySelector('img').src : '';
   if (!src) return;
   const img = document.getElementById('photoModalImg');
   img.src = src;
@@ -595,6 +583,67 @@ function agrandir(cote) {
   if(hint){ hint.style.opacity='1'; setTimeout(()=>hint.style.opacity='0', 3000); }
   if (img.complete) initPinchZoom(img);
   else img.onload = () => initPinchZoom(img);
+}
+
+// ── MÉDIA AVANT/APRÈS : photo, vidéo ou son ────
+const EXT_IMAGE = ['jpg','jpeg','png','gif','webp','bmp','svg'];
+const EXT_VIDEO = ['mp4','webm','mov','m4v','ogv'];
+const EXT_AUDIO = ['mp3','wav','ogg','oga','m4a','aac','flac'];
+
+function typeMedia(url) {
+  const ext = (url.split('?')[0].split('#')[0].split('.').pop() || '').toLowerCase();
+  if (EXT_VIDEO.includes(ext)) return 'video';
+  if (EXT_AUDIO.includes(ext)) return 'audio';
+  return 'image'; // image, ou extension inconnue → on tente quand même l'image (comportement historique)
+}
+
+function fallbackExterne(wrap, url) {
+  wrap.dataset.type = 'none';
+  wrap.style.cursor = 'default';
+  wrap.onclick = null;
+  wrap.innerHTML = `
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:200px;gap:1rem;padding:1rem;text-align:center;background:var(--grl);border-radius:10px">
+      <div style="font-size:13px;color:var(--gr3)">Aperçu non disponible</div>
+      <a href="#" onclick="ouvrirExterne('${url}');return false;" class="archive-btn">Voir le document ↗</a>
+    </div>`;
+}
+
+function chargerMedia(url, wrapId, cote) {
+  const wrap = document.getElementById(wrapId);
+  if (!url) {
+    wrap.dataset.type = 'none';
+    wrap.style.cursor = 'default';
+    wrap.onclick = null;
+    wrap.innerHTML = '<div class="vw-hint" style="position:static;padding:1rem;font-size:13px">Non disponible</div>';
+    return;
+  }
+
+  const type = typeMedia(url);
+  wrap.dataset.type = type;
+
+  if (type === 'video') {
+    wrap.style.cursor = 'default';
+    wrap.onclick = null;
+    wrap.innerHTML = `<video class="vw-video" controls playsinline preload="metadata"><source src="${url}">Vidéo non supportée par votre navigateur.</video>`;
+    wrap.querySelector('video').addEventListener('error', () => fallbackExterne(wrap, url));
+    return;
+  }
+
+  if (type === 'audio') {
+    wrap.style.cursor = 'default';
+    wrap.onclick = null;
+    wrap.innerHTML = `<div class="vw-audio"><div class="vw-audio-icon">🎧</div><audio controls preload="metadata"><source src="${url}"></audio></div>`;
+    wrap.querySelector('audio').addEventListener('error', () => fallbackExterne(wrap, url));
+    return;
+  }
+
+  // image
+  wrap.style.cursor = 'zoom-in';
+  wrap.onclick = () => agrandir(cote);
+  wrap.innerHTML = '<img class="vw-img" src="" alt=""><div class="vw-hint">Cliquer pour agrandir</div>';
+  const img = wrap.querySelector('img');
+  img.onerror = () => fallbackExterne(wrap, url);
+  img.src = url;
 }
 
 function closePhoto() {
