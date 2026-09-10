@@ -74,7 +74,7 @@
       "id": "04",
       "titre": "Bruyère Cendrée",
       "etat": "Plante",
-      "couleur": "#171916",
+      "couleur": "#42c33b",
       "implantation": "",
       "gps": {
         "lat": 47.77663381289285,
@@ -375,7 +375,7 @@
       "photo": ""
     },
     {
-      "id": "𓅪",
+      "id": "1 𓅪",
       "titre": "Chouette Chevêche",
       "etat": "Oiseau",
       "couleur": "#3b88c3",
@@ -394,7 +394,7 @@
       "photo": ""
     },
     {
-      "id": "𓅪",
+      "id": "2 𓅪",
       "titre": "Geai des chênes",
       "etat": "Oiseau",
       "couleur": "#3b88c3",
@@ -413,7 +413,7 @@
       "photo": ""
     },
     {
-      "id": "𓅪",
+      "id": "3 𓅪",
       "titre": "Pic noir",
       "etat": "Oiseau",
       "couleur": "#3b88c4",
@@ -432,7 +432,7 @@
       "photo": ""
     },
     {
-      "id": "𓅪",
+      "id": "4 𓅪",
       "titre": "Traquet motteux",
       "etat": "Oiseau",
       "couleur": "#3b88c5",
@@ -451,7 +451,7 @@
       "photo": ""
     },
     {
-      "id": "𓅪",
+      "id": "5 𓅪",
       "titre": "Pouillot de Bonelli",
       "etat": "Oiseau",
       "couleur": "#3b88c6",
