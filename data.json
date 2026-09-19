@@ -20,7 +20,7 @@
       "couleur": "#C00000",
       "implantation": "",
       "gps": {
-        "lat": 47.775837007600956,
+        "lat": 47.77583700760096,
         "lng": 3.470684815613232
       },
       "rayon_declenchement": 25,
@@ -58,7 +58,7 @@
       "couleur": "#C00000",
       "implantation": "",
       "gps": {
-        "lat": 47.776319971620595,
+        "lat": 47.7763199716206,
         "lng": 3.46363245511094
       },
       "rayon_declenchement": 25,
@@ -96,7 +96,7 @@
       "couleur": "#42c33b",
       "implantation": "",
       "gps": {
-        "lat": 0.0,
+        "lat": 47.77671092042449,
         "lng": 3.461541736050389
       },
       "rayon_declenchement": 25,
@@ -134,7 +134,7 @@
       "couleur": "#C00000",
       "implantation": "",
       "gps": {
-        "lat": 47.776264691422156,
+        "lat": 47.77626469142216,
         "lng": 3.4563997204845966
       },
       "rayon_declenchement": 25,
