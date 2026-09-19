@@ -20,7 +20,7 @@
       "couleur": "#C00000",
       "implantation": "",
       "gps": {
-        "lat": 47.77583700760096,
+        "lat": 47.775837007600956,
         "lng": 3.470684815613232
       },
       "rayon_declenchement": 25,
@@ -58,7 +58,7 @@
       "couleur": "#C00000",
       "implantation": "",
       "gps": {
-        "lat": 47.7763199716206,
+        "lat": 47.776319971620595,
         "lng": 3.46363245511094
       },
       "rayon_declenchement": 25,
@@ -96,8 +96,8 @@
       "couleur": "#42c33b",
       "implantation": "",
       "gps": {
-        "lat": 47.776574,
-        "lng": 3.461166
+        "lat": 0.0,
+        "lng": 3.461541736050389
       },
       "rayon_declenchement": 25,
       "description": "<div id=\"rendered-md\"><h1 id=\"la-fougère-aigle\">La Fougère aigle</h1>\n<p>La Fougère aigle (<strong>Pteridium aquilinum</strong>) est une grande fougère vivace très commune dans les bois clairs, les landes, les lisières et les coupes forestières. Elle apprécie surtout les sols acides, pauvres et relativement secs.</p>\n<p>Ses grandes frondes triangulaires peuvent dépasser deux mètres de hauteur. Elles apparaissent au printemps à partir d’un rhizome souterrain très développé. Ce réseau permet à la plante de survivre aux incendies ou aux coupes et de coloniser rapidement de grandes surfaces. Son nom viendrait de la forme évoquant un aigle que l’on peut observer dans la section de son pétiole.</p>\n<p>La Fougère aigle forme parfois des peuplements très denses appelés ptéridaies. Leur couvert limite la lumière au niveau du sol et peut freiner la germination ainsi que le développement d’autres plantes. Son abondance peut donc signaler un milieu forestier ouvert ou anciennement perturbé, par exemple après une coupe, un incendie ou l’abandon d’une lande.</p>\n<p>La plante contient des substances toxiques : sa consommation est déconseillée, aussi bien pour l’être humain que pour les animaux domestiques.</p>\n</div></div>",
@@ -115,8 +115,8 @@
       "couleur": "#42c33b",
       "implantation": "",
       "gps": {
-        "lat": 47.776347,
-        "lng": 3.459865
+        "lat": 47.776565424517166,
+        "lng": 3.460765897579998
       },
       "rayon_declenchement": 25,
       "description": "<div id=\"rendered-md\"><h1 id=\"le-coussinet-des-bois\">Le Coussinet des bois</h1>\n<p>Le Coussinet des bois (<em><strong>Leucobryum glaucum</strong></em>) est une mousse qui forme des touffes épaisses, arrondies et très compactes. Sa couleur varie du vert pâle au vert blanchâtre, avec un aspect presque argenté lorsqu’elle est sèche.</p>\n<p>Cette mousse pousse principalement sur les sols acides des forêts, des landes et des tourbières. Elle s’installe sur l’humus, le bois en décomposition ou au pied des arbres, dans des endroits généralement ombragés et humides.</p>\n<p>Comme toutes les mousses, elle ne possède ni fleurs ni véritables racines. Elle absorbe directement l’eau par toute sa surface et peut en retenir une quantité importante. En période sèche, le coussinet se contracte et pâlit, puis retrouve rapidement sa couleur et son volume avec l’humidité.</p>\n<p>Ses touffes créent un petit milieu frais qui abrite des micro-organismes et de minuscules invertébrés. Elles participent également à la conservation de l’humidité au niveau du sol.</p>\n</div></div>",
@@ -128,13 +128,13 @@
       "photo": ""
     },
     {
-      "id": "07",
+      "id": "08",
       "titre": "Pin Sylvestre",
       "etat": "Arbre",
       "couleur": "#C00000",
       "implantation": "",
       "gps": {
-        "lat": 47.77626469142216,
+        "lat": 47.776264691422156,
         "lng": 3.4563997204845966
       },
       "rayon_declenchement": 25,
@@ -147,7 +147,7 @@
       "photo": ""
     },
     {
-      "id": "08",
+      "id": "07",
       "titre": "Chene pedonculé",
       "etat": "Arbre",
       "couleur": "#C00000",
@@ -248,8 +248,8 @@
       "couleur": "#C00000",
       "implantation": "",
       "gps": {
-        "lat": 47.777574,
-        "lng": 3.462399
+        "lat": 47.77749150205637,
+        "lng": 3.4626278253530773
       },
       "rayon_declenchement": 25,
       "description": "<div id=\"rendered-md\"><h1 id=\"le-chêne-sessile\">Le Chêne sessile</h1>\n<p>Le Chêne sessile (<strong>Quercus petraea</strong>) est un grand arbre feuillu pouvant atteindre 25 à 40 mètres de hauteur. Sa silhouette est généralement élancée, avec un houppier régulier et des branches moins tortueuses que celles du Chêne pédonculé.</p>\n<p>Ses feuilles possèdent un pétiole bien visible et une base en forme de coin, sans petites oreillettes. Ses glands sont presque directement attachés aux rameaux : le mot « sessile » signifie justement « dépourvu de pédoncule ». Ces critères permettent de le distinguer du Chêne pédonculé, dont les glands pendent au bout d’une longue tige.</p>\n<p>Le Chêne sessile apprécie les sols acides ou légèrement calcaires, à condition qu’ils soient bien drainés. Il supporte mieux les terrains secs et les périodes de sécheresse que le Chêne pédonculé. On le rencontre principalement dans les forêts de collines et sur les versants.</p>\n<p>Ses glands nourrissent de nombreux animaux, notamment les geais, les écureuils et les sangliers, d'ailleurs si vous êtes discrets vous pourrez probablement en voir. Son feuillage accueille également une grande variété d’insectes.</p>\n</div></div>",
@@ -267,8 +267,8 @@
       "couleur": "#42c33b",
       "implantation": "",
       "gps": {
-        "lat": 47.778496,
-        "lng": 3.461914
+        "lat": 47.777965858890674,
+        "lng": 3.4623627269052366
       },
       "rayon_declenchement": 25,
       "description": "<div id=\"rendered-md\"><h1 id=\"le-petit-houx-ruscus-aculeatus\">Le Petit houx — Ruscus aculeatus</h1>\n<p>Le <strong>Ruscus aculeatus</strong> aussi appelé <strong>Fragon piquant</strong>, le Petit houx est un sous-arbrisseau persistant qui pousse principalement dans les sous-bois, les haies et les fourrés, souvent sur des sols secs et calcaires. Ses « feuilles » coriaces et terminées par une pointe sont en réalité des rameaux aplatis, appelés cladodes.</p>\n<p>Ses petites fleurs verdâtres apparaissent directement au centre de ces cladodes. Les pieds femelles portent ensuite des baies rouges, visibles en automne et en hiver. Cette plante offre un abri à la petite faune et ses fruits participent à l’alimentation de certains oiseaux.<br>\nSa présence peut témoigner de sous-bois anciens, relativement peu perturbés et bien structurés.</p>\n</div></div>",
@@ -324,8 +324,8 @@
       "couleur": "#42c33b",
       "implantation": "",
       "gps": {
-        "lat": 47.782796,
-        "lng": 3.461367
+        "lat": 47.78305841715089,
+        "lng": 3.461379480288437
       },
       "rayon_declenchement": 25,
       "description": "<div id=\"rendered-md\"><h1 id=\"la-fougère-mâle\">La Fougère mâle</h1>\n<p>La Fougère mâle (<strong>Dryopteris filix-mas</strong>) est une grande fougère vivace formant des touffes robustes. Ses frondes, disposées en couronne, peuvent atteindre plus d’un mètre de hauteur.</p>\n<p>Son feuillage vert foncé est moins finement découpé que celui de la Fougère femelle. Le pétiole porte de de nombreuses éca scales brunes. Sous les frondes fertiles, on observe des amas de spores ronds, appelés sores, disposés régulièrement de chaque côté des nervures.</p>\n<p>La Fougère mâle pousse principalement dans les bois ombragés, les talus, les ravins et les endroits frais. Elle apprécie les sols riches en humus, mais uncertainties support de courtes périodes plus sèches.</p>\n<p><strong>Malgré son nom, elle n’est pas le mâle de la Fougère femelle</strong> : les deux appartiennent à des espèces et même à des genres différents. Cette appellation ancienne évoque seulement son aspect plus vigoureux et massif.</p>\n</div></div>",
@@ -438,8 +438,8 @@
       "couleur": "#3b88c5",
       "implantation": "",
       "gps": {
-        "lat": 47.776431,
-        "lng": 3.462785
+        "lat": 47.77612157281279,
+        "lng": 3.465470749265346
       },
       "rayon_declenchement": 25,
       "description": "<div id=\"rendered-md\"><h1 id=\"le-traquet-motteux\">Le Traquet motteux</h1>\n<p>Le Traquet motteux (<strong>Oenanthe oenanthe</strong>) est un petit passereau migrateur qui fréquente les espaces ouverts à végétation basse : pelouses, landes, dunes, pâturages et terrains pierreux.</p>\n<p>Le mâle possède un dos gris, un masque noir sur les yeux et une poitrine beige orangé. La femelle présente des couleurs plus brunes et discrètes. En vol, les deux sexes montrent un croupion blanc et une bande noire en forme de « T » au bout de la queue, caractéristiques de l’espèce.</p>\n<p>Il se tient souvent bien droit sur une pierre, une motte de terre ou un piquet afin de surveiller le sol. Il se nourrit principalement d’insectes, d’araignées et de petites larves qu’il capture au sol.</p>\n<p>Son nid est installé dans une cavité, sous une pierre, dans un muret ou dans un ancien terrier. À la fin de l’été, le Traquet motteux quitte l’Europe pour passer l’hiver en Afrique subsaharienne.</p>\n<p>Sa présence peut signaler une lande ouverte comportant des zones de sol nu et des abris rocheux. L’abandon du pâturage et la fermeture progressive de ces milieux réduisent ses habitats. L’espèce est protégée en France.</p>\n</div></div>",
