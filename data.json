@@ -37,7 +37,7 @@
       "titre": "Bouleau",
       "etat": "Arbre",
       "couleur": "#C00000",
-      "implantation": "",
+      "implantation": "B1",
       "gps": {
         "lat": 47.775985414962925,
         "lng": 3.4684745250294364
@@ -56,7 +56,7 @@
       "titre": "Charme",
       "etat": "Arbre",
       "couleur": "#C00000",
-      "implantation": "",
+      "implantation": "B2",
       "gps": {
         "lat": 47.7763199716206,
         "lng": 3.46363245511094
@@ -75,7 +75,7 @@
       "titre": "Bruyère Cendrée",
       "etat": "Plante",
       "couleur": "#42c33b",
-      "implantation": "",
+      "implantation": "B3",
       "gps": {
         "lat": 47.77663381289285,
         "lng": 3.462248311159544
@@ -113,7 +113,7 @@
       "titre": "Coussinet des Bois",
       "etat": "Plante",
       "couleur": "#42c33b",
-      "implantation": "",
+      "implantation": "B4",
       "gps": {
         "lat": 47.776565424517166,
         "lng": 3.460765897579998
@@ -132,7 +132,7 @@
       "titre": "Pin Sylvestre",
       "etat": "Arbre",
       "couleur": "#C00000",
-      "implantation": "",
+      "implantation": "B5",
       "gps": {
         "lat": 47.77626469142216,
         "lng": 3.4563997204845966
@@ -151,7 +151,7 @@
       "titre": "Chene pedonculé",
       "etat": "Arbre",
       "couleur": "#C00000",
-      "implantation": "",
+      "implantation": "B6",
       "gps": {
         "lat": 47.776393,
         "lng": 3.457886
@@ -208,7 +208,7 @@
       "titre": "Point d'eau",
       "etat": "Eau",
       "couleur": "#3b88c3",
-      "implantation": "",
+      "implantation": "B7",
       "gps": {
         "lat": 47.776206647744026,
         "lng": 3.4519470000000605
@@ -227,7 +227,7 @@
       "titre": "Chataigner",
       "etat": "Arbre",
       "couleur": "#C00000",
-      "implantation": "",
+      "implantation": "B8",
       "gps": {
         "lat": 47.776156,
         "lng": 3.450904
@@ -246,7 +246,7 @@
       "titre": "Chêne sessile",
       "etat": "Arbre",
       "couleur": "#C00000",
-      "implantation": "",
+      "implantation": "B9",
       "gps": {
         "lat": 47.77749150205637,
         "lng": 3.4626278253530773
@@ -265,7 +265,7 @@
       "titre": "Petit Houx",
       "etat": "Plante",
       "couleur": "#42c33b",
-      "implantation": "",
+      "implantation": "B10",
       "gps": {
         "lat": 47.777965858890674,
         "lng": 3.4623627269052366
